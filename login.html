@@ -4,17 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Student Login</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
-    <header>
-        <h1>Student Login</h1>
-        <form action="/login" method="post">
+<body class="body">
+
+    <header class="login-header">
+        <div class="form">
+            <h1>Student Login</h1>
+            <form action="/login" method="post" class="form2">
             <label for="username">Username:</label>
-            <input type="text" id="username" name="username" placeholder="Enter your username" required><br><br>
+            <input type="text" id="username" name="username" placeholder="Enter your username" required class="input"><br><br>
             <label for="password">Password:</label>
-            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
-            <input type="submit" value="Login">
-        </form>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required class="input"><br><br>
+            <input type="submit" value="Login" class="button">
+            </form>
+        </div>
+            
     </header>
     
 </body>
